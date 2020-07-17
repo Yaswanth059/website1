@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>MY project-2</title>
+	<meta name="viewport" content="width=device-width initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="project2.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <!-- animate.css -->
+    <link
+    rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    
+</head>
+<body>
+
+<!--********************* FAILED TO PLUGIN WOW.JS ********************************-->
+<!--******************************************************************************-->
+
+
+
+<!-----------------top navigation bar part------------------------->
+<section id="navbar">
+<nav class="navbar navbar-expand-lg navbar-light">
+  <a class="navbar-brand" href="#">MYLOGO</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <i class="fas fa-bars"></i>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto"><!--ml-auto sets the elements to right-->
+      <li class="nav-item">
+        <a class="nav-link" href="#top">HOME</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#services">SERVICES</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#aboutus-part">ABOUT US</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#" onclick="openModal()">LOGIN</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#footer">CONTACT</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+</section>
+
+ 
+
+<!-----------------top mainContent part with two columns------------------------->
+<section id="mainContent">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6"><!--grid system-->
+				<p class="maintitle wow animate__animated animate__fadeInLeftBig" data-wow-duration="1.8s">OUR AGENCY AT YOUR FINGER TIPS</p>
+				<p>Well, you are at correct place to make your website with us and<b> go online</b> In this era of Internet, Make your presence online. We are here to make Responsive websites for your Institution or Business.</p>
+			</div>
+			<div class="col-md-6 text-center"><!--grid system-->
+				<img src="webimg.png"  alt="laptop.img">
+			</div>
+	</div>
+	</div>
+</section>
+
+
+<!-------------------services part------------------->
+<section id="services">
+	<div class="title">
+	    <h2 class="mr-auto">OUR SERVICES!</h2>
+    </div>
+	<div class="container">
+		<div class="row text-center">
+			<div class="col-md-4 mycard animate__animated wow animate__fadeInLeftBig" data-wow-delay=".1s" data-wow-duration="1.5s">
+				<div class="card my-3">
+					<div class="card-body text-center">
+						<img src="online-branding.png" alt="responsive">
+				        <h4>Online Branding</h4>
+				        <p class="text">Online Branding is a brand management technique that uses the internet & Social Media Channels as a medium for positioning a brand in the marketplace. Branding is increasingly important with the advancements of the internet.</p>
+			        </div>
+				</div>
+			</div>
+			<div class="col-md-4 mycard">
+				<div class="card my-3">
+					<div class="card-body text-center">
+						<img src="responsive.png" alt="responsive">
+				        <h4>Responsive Websites</h4>
+				        <p class="text">Responsive web design is an approach to web design that makes web pages render well on a variety of devices and window or screen sizes. having a Responsive website will attract the more number of users. </p>
+			        </div>
+		        </div>
+			</div>
+			<div class="col-md-4 mycard animate__animated wow animate__fadeInRightBig"  data-wow-delay=".1s"  data-wow-duration="1.5s">
+				<div class="card my-3">
+					<div class="card-class text-center">
+						<img src="hosting.png" alt="hosting">
+						<h4>Hosting Services</h4>
+				        <p class="text"> It is A free web hosting service is a type of Internet hosting service that allows individuals and organizations or institutes to make their website accessible to the users, via the World Wide Web. We provide <b>free hosting service upto 1GB </b></p>
+			        </div>
+		        </div>
+			</div>
+		</div>
+	</div>
+	<div class="btn-container">
+		<p class="butt">Show All</p>
+	</div>
+</section>
+
+<!------------------------About us------------------------------>
+<section id="aboutus-part">
+	<div class="container">
+		<div class="title">
+			<h2 class="">ABOUT US</h2>
+    </div>
+
+        <div class="row">
+        	<div class="col-md-6 about-us">
+        		<p class="about-title text-center">Why We Are Special ?</p>
+        		<ul>
+        			<li>We believe in <b>Business with Honesty.</b></li>
+				    <li>Customized <b>Responsibile websites</b> at the Lowest Rates.</li>
+				    <li>We Provide <b>free web hosting services</b> upto 1GB.</li>
+				    <li>Start With Us <b>Build your website ans go live.</b></li>
+				    <li>Drive traffic to your site. We Use advanced <b>SEO tools.</b></li>
+				    <li><b>Free Domains</b> for your websites.</li>
+				    <li>and many more,<b> LOGIN</b> to know more.</li>
+			    </ul>
+		    </div>
+
+		    <div class="col-md-6 host">
+		    	<img src="hosting.png" class="hosting-img">
+		    </div>
+	    </div>
+	</div>
+</section>
+<!--------------------------LOGIN SECTION------------------------------>
+<section id="login">
+  <div class="container">
+    <div class="title">
+      <h2 class="">LOG-IN</h2><!--animate__animated wow animate__bounce-->
+    </div>
+    <div class="row offset-2">
+      <div class="col-md-4">
+        <p class="about-title">Why LOG-IN ?</p>
+        <p>LOG-IN to enjoy <b>Free hosting services</b><br>Get the <b>free domain names.</b> <br>have free access to our <b>CSS templates</b></p>
+      </div>
+      <div class="col-md-4 sec-part">
+        <p class="login-text">LOG-IN here</p>
+         <button class="login-button" onclick="openModal()">LOG-IN</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!------------------------------hidden Login form-------------------------------->
+<div id="pop-box" class="fullform">
+    <form class="fullform-content animate">
+    	<h2><b>Login</b></h2>
+        <div class="input-field">
+          <input type="text" required>
+          <label>Email Or UserName</label>
+        </div>
+        
+        <div class="input-field">
+          <input type="password" class="paswo" required>
+            <a herf="#" class="forget">Forget Password ?</a>
+          <label>Password</label>
+          <span class="show">SHOW</span>
+        </div>
+        <span class="close" title="Close Modal" onclick="closeModal()">&times;</span>
+        <div class="button">
+          <div class="inner">
+          <button>Login</button>
+          </div>
+        </div>
+        
+        <div class="social">Or Login with</div>
+        <div class="links">
+        	<div class="facebook">
+        		<i class="fab fa-facebook-square"><span>Facebook</span></i>
+        	</div>
+            <div class="google">
+                <i class="fab fa-google-plus-square"><span>Gooogle</span></i>
+            </div>
+        </div>
+        <div class="signup">
+        	<p>Don't have an account?<a href="#">Signup Now</a></p>
+        </div>
+    </form> 
+</div>
+
+<!--------------------------developers content here------------------------------->
+<section id="developers-content">
+	<div class="container">
+		<div class="title">
+			<h2>DEVELOPERS</h2>
+        </div>
+		<div class="row offset-1"><!--here we are using col-md-5 so 2 columns will remain at the end......that is why we set offset-1 so that it will leave one row at each side and place the content at center-->
+			<div class="col-md-5 intro animate__animated wow animate__fadeInLeftBig"  data-wow-delay=".1s"  data-wow-duration="1.5s">
+				<p class="intro1"><b>"We love what we do and we do what our clients love"</b> & we work with great clients all over the world to create thoughtful and purposeful websites. Front-end devepment deals with the designing and layout of website, which inturn attracts the right kinds of visitors.</p>
+				<img src="avatar-512.png" alt="avatar">
+				<p class="name-designation"><b>Yaswanth Manem</b><br>Front-end Developer</p>
+			</div>
+			<div class="col-md-5 intro animate__animated wow animate__fadeInRightBig"  data-wow-delay=".1s"  data-wow-duration="1.5s">
+				<p class="intro1"><b>"In short, Backend is the Nervous System of any web service."</b> Without which you can't do any activity online, Back-end devepment is responsibile for adding interactivity to your page. Eventually the most important thing is, Your Security is Our first priority </p>
+				<img src="avatar-512.png" alt="avatar">
+				<p class="name-designation"><b>KoiHelp kardoIsme</b><br>Back-end Developer</p>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+
+<!----------------------footer part-------------------------->
+<section id="footer">
+<footer>
+  <div class="footer-box">
+    <div class="left box">
+      <h2 class="">About Us</h2>
+      <div class="content">
+        <p>This a team of young developers, We are here to make your online prsence easier and cheaper. We built wesites for your institution or business, if you are a student We would love to integrate with you and your college, feel free to contact us. ThankYou.</p>
+        <p>"OUR AGENCY AT YOUR FINGER TIPS"</p>
+        <div class="contact-icons">
+          <a href="https://www.facebook.com/" target="_blank"><span class="fab fa-facebook-f"></span></a>
+          <a href="https://twitter.com/login" target="_blank"><span class="fab fa-twitter"></span></a>
+          <a href="https://www.instagram.com/accounts/login/?hl=en" target="_blank"><span class="fab fa-instagram"></span></a>
+          <a href="https://www.youtube.com" target="_blank" ><span class="fab fa-youtube"></span></a>
+        </div>
+      </div>
+    </div>
+        
+    <div class="middle box">
+      <h2 class="">Address</h2>
+      <div class="content">
+        <div class="place">
+          <span class="fas fa-map-marker-alt"></span>
+          <span class="text">Kolkata, India 700119</span>
+        </div>
+        <div class="Phone">
+          <span class="fas fa-phone-alt"></span>
+          <span class="text">+91 6290849979</span>
+        </div>
+        <div class="Email">
+          <span class="fas fa-envelope"></span>
+          <span class="text">yash05@gmail.com</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="bottom">Created by<a href="#">Yaswanth Manem</a>| @2020 all rights Reserved</div>
+</footer>
+</section>
+
+
+
+<!--wow.js-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+<script>
+    new WOW().init();
+</script>
+
+
+
+
+<!---------------------------JAVASCRIPT PART------------------------------>
+
+<!------------smooth scroll(this is from a github link)--------------------->
+<script src="smooth-scroll.js"></script>
+<script>
+	var scroll = new SmoothScroll('a[href*="#"]');
+</script>
+
+
+
+
+
+<script type="text/javascript">
+/*for opening and closing of the modal*/
+function closeModal(){
+  document.getElementById('pop-box').style.display='none';
+}
+function openModal(){
+  document.getElementById('pop-box').style.display='block';
+}
+
+var fullform = document.getElementById('pop-box');
+//when user clicks outside the content box close it, here 'pop-box' is not the content box, 'pop-box' is occupied by entire screen after clicking on the button
+window.onclick = function(event){
+  if (event.target == fullform){
+    fullform.style.display = "none";
+  }
+}
+
+/*password hide and show*/
+var input=document.querySelector('.paswo');
+var show= document.querySelector(".show");
+show.addEventListener("click",func);
+function func(){
+  if(input.type==='password'){
+    input.type = "text";
+    show.style.color = "#1DA1F2";
+    show.innerHTML="HIDE";
+  }
+  else{
+    input.type = "password";
+    show.style.color = "#000";
+    show.innerHTML="SHOW";
+  }
+}
+
+</script>
+
+</body>
+</html>
